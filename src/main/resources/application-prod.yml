@@ -1,0 +1,9 @@
+application:
+  datasource:
+      url: jdbc:sqlserver://msqleu2inmod01.database.windows.net:1433;database=msqleu2inmodint01;columnEncryptionSetting=Enabled;sendStringParametersAsUnicode=false;
+      username: INMO_BD_USER
+      password: INMO_BD_PASS
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  serviceprincipal:
+      clientid: INMO_KEYVAULT_SP_CLIENT_ID
+      clientkey: INMO_KEYVAULT_SP_CLIENT_SECRET

@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: channel-inmo-survey-v1
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+  profiles:
+    active: dev
+
+application:
+  #  ███████╗██╗██╗██╗ █████╗  ██████╗  ██████╗ ███████╗██████╗
+  #  ██╔════╝██║██║██║██╔══██╗██╔════╝ ██╔════╝ ██╔════╝██╔══██╗
+  #  ███████╗██║██║██║███████║██║  ███╗██║  ███╗█████╗  ██████╔╝
+  #  ╚════██║██║██║██║██╔══██║██║   ██║██║   ██║██╔══╝  ██╔══██╗
+  #  ███████║╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝███████╗██║  ██║
+  #  ╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝
+  swagger:
+    title: API Channel Survey V1
+    description: Project to proccess survey information.
+    version: 1.0.000

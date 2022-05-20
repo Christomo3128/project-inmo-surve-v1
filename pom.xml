@@ -21,7 +21,7 @@
 		<io-reactivex.version>1.2.5</io-reactivex.version>
 		<io-reactivex-rxjava2.version>2.2.2</io-reactivex-rxjava2.version>
 		<guava.version>22.0</guava.version>
-		<swagger-codegen.version>2.8.5</swagger-codegen.version>
+		<swagger-codegen.version>2.8.9</swagger-codegen.version>
 		<jococo.version>0.8.5</jococo.version>
 		<model-mapper.version>2.3.7</model-mapper.version>
 		<microsoft-client-runtime.version>1.7.2</microsoft-client-runtime.version>
